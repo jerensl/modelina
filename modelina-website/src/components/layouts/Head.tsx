@@ -18,7 +18,7 @@ export interface HeadProps {
 export default function HeadComponent({
   title,
   description = 'Open source tools to easily build and maintain your event-driven architecture. All powered by the AsyncAPI specification, the industry standard for defining asynchronous APIs.',
-  image = '/img/card/website-card.jpg'
+  image = '/img/card/modelina-card.jpg'
 }: HeadProps) {
   const url = process.env.NEXT_PUBLIC_DEPLOY_PRIME_URL || process.env.NEXT_PUBLIC_DEPLOY_URL;
   const { path } = useContext(AppContext);
